@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "standard",
+    "plugin:tailwindcss/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "tailwindcss/classnames-order": "off",
+    "tailwindcss/migration-from-tailwind-2": "off",
+    "no-unused-vars": "off", // Already in place to remove unused var warnings
+    "@typescript-eslint/no-unused-vars": "off", // Disable TypeScript unused vars warnings
+    "@typescript-eslint/no-explicit-any": "off", // Remove errors for 'any' type
+    "@typescript-eslint/explicit-module-boundary-types": "off" // Disable enforcing return types for functions
+  }
+}
